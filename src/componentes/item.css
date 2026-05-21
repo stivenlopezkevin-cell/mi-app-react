@@ -1,0 +1,10 @@
+.item {
+  background-color: white;
+  padding: 16px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.item__texto {
+  margin: 0;
+}
