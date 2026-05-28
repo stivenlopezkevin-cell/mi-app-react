@@ -1,17 +1,12 @@
-import './Encabezado.css'
+import './encabezado.css'
 
-function Encabezado() {
+function Encabezado({ titulo, subtitulo }) {
   return (
     <header className="encabezado">
-
-      <h1 className="encabezado__titulo">
-        Mis Tareas
-      </h1>
-
-      <p className="encabezado__subtitulo">
-        Organiza lo que tienes que hacer hoy
-      </p>
-
+      <div className="encabezado__contenido">
+        <h1 className="encabezado__titulo">{titulo}</h1>
+        <p className="encabezado__subtitulo">{subtitulo}</p>
+      </div>
     </header>
   )
 }
